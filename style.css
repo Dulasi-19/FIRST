@@ -1,0 +1,20 @@
+.social-icon {
+    color: #fff;
+   
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #0d6efd; /* Bootstrap primary color */
+    transform: scale(1.2); /* Zoom effect */
+  }
+  .card:hover {
+    transform: scale(1); /* Slight zoom */
+    box-shadow: 0 10px 20px rgba(84, 12, 133, 0.253);
+  }
+  .hvr-underline-from-left::before {
+    background: red !important; /* Change 'red' to any color you want */
+  }
+  
